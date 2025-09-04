@@ -65,6 +65,7 @@ GUI:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a860e569-070b-4159-b1dc-c2390696b5fe" />
 
 Sample PDF(A5 size):
+
 <img width="557" height="792" alt="image" src="https://github.com/user-attachments/assets/1328f51c-a00e-4406-8522-1ed881c0de74" />
 
 
