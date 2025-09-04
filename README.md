@@ -46,3 +46,16 @@ Install `reportlab` via pip if not already installed:
 
 ```bash
 pip install reportlab
+
+How to Run
+
+Clone or download this repository.
+
+Ensure invoices.db is in the same directory as the script (auto-created if missing).
+
+Run the app:
+
+python billing_app.py
+
+
+Start creating invoices, add items, and export PDFs!
