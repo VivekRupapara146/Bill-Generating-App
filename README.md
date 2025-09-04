@@ -1,7 +1,5 @@
 # Bill-Generating-App
-Built a full-featured Billing &amp; Invoice Generator in Python using Tkinter, SQLite, and ReportLab. Enabled invoice creation with auto-increment chalan numbers, item management, tax/total calculations, PDF export, and database persistence with backup. Designed an intuitive UI for efficient invoicing and client-ready document generation.
-
-# Billing & Invoice Generator
+Developed a full-featured Billing & Invoice Generator using Python (Tkinter, SQLite, ReportLab). Implemented invoice creation, item master, auto-increment chalan numbering, PDF export, database persistence, and backup. Designed an intuitive UI with automated calculations for tax, totals, and charges, enabling efficient invoicing, record-keeping, and client-ready document generation."
 
 A full-featured **Billing & Invoice Generator** desktop application built with **Python, Tkinter, SQLite, and ReportLab**.  
 This app allows you to create, manage, and export invoices (chalans) with an intuitive UI and persistent database storage.
@@ -48,3 +46,25 @@ Install `reportlab` via pip if not already installed:
 
 ```bash
 pip install reportlab
+```
+
+How to Run
+
+Clone or download this repository.
+
+Ensure invoices.db is in the same directory as the script (auto-created if missing).
+
+Run the app:
+```bash
+python billing_app.py
+```
+
+Start creating invoices, add items, and export PDFs!
+
+GUI:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a860e569-070b-4159-b1dc-c2390696b5fe" />
+
+Sample PDF(A5 size):
+
+<img width="557" height="792" alt="image" src="https://github.com/user-attachments/assets/1328f51c-a00e-4406-8522-1ed881c0de74" />
+
