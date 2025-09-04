@@ -46,6 +46,7 @@ Install `reportlab` via pip if not already installed:
 
 ```bash
 pip install reportlab
+```
 
 How to Run
 
@@ -54,8 +55,16 @@ Clone or download this repository.
 Ensure invoices.db is in the same directory as the script (auto-created if missing).
 
 Run the app:
-
+```bash
 python billing_app.py
-
+```
 
 Start creating invoices, add items, and export PDFs!
+
+GUI:
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a860e569-070b-4159-b1dc-c2390696b5fe" />
+
+Sample PDF(A5 size):
+<img width="557" height="792" alt="image" src="https://github.com/user-attachments/assets/1328f51c-a00e-4406-8522-1ed881c0de74" />
+
+
