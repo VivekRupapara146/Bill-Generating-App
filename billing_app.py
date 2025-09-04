@@ -53,16 +53,15 @@ PDF_DIR = "pdf"
 APP_TITLE = "Invoice/Chalan Generator"
 # Default company details (editable from Settings)
 DEFAULTS = {
-    "company_name": "AN-TECH INCORPORATION",
-    "company_city": "RAJKOT",
-    "company_mobile": "+91-9724460259",
-    "bank_ac_name": "GHANSHYAM B. VAGHASIYA",
-    "bank_name": "STATE BANK OF INDIA",
-    "bank_ac_no": "20077760917",
-    "bank_ifsc": "SBIN0010977",
+    "company_name": "COMPANY NAME",
+    "company_city": "CITY",
+    "company_mobile": "+91-123456789",
+    "bank_ac_name": "VIVEK G. RUPAPARA",
+    "bank_name": "BANK",
+    "bank_ac_no": "123456789",
+    "bank_ifsc": "XYZ0123456",
     "logo_path": "",  # optional path to logo image
 }
-
 @dataclass
 class LineItem:
     item: str
@@ -1072,3 +1071,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
